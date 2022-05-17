@@ -1,0 +1,25 @@
+body {
+    font-family: 'Ubuntu';font-size: 22px;
+}
+
+.navops{
+    font-size: 40px;
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 95%;
+  padding-right: 1%;
+  padding-left: 2%;
+}
+.icons{
+    float: right;
+}

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projstyle.css">
   <title>MySite</title>
 
 </head>
@@ -20,41 +20,11 @@
       <li><a href="#" class="navops icons fa fa-github"></a></li>
     </ul>
 
-  <div class="info">
-    <p id="demo"></p>
-    <p id="demo1"></p>
+    <ul>
+        <li><a href="proj1.html">Project1</a></li>
+        <li><a href="proj2.html">Project2</a></li>
+    </ul>
 
-  </div>
 
-  <script>
-    var i = 0;
-    var j = 0;
-    var txt = 'Hi, I am Arya.';
-    var txt1 = 'CSE Sophomore @ IIT Bombay.';
-    var speed = 200;
-    var speed1 = 200;
-    
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-
-    typeWriter();
-
-    function typeWriter1() {
-      if (j < txt1.length) {
-        document.getElementById("demo1").innerHTML += txt1.charAt(j);
-        j++;
-        setTimeout(typeWriter1, speed1);
-      }
-    }
-
-    typeWriter1();
-    </script>
-    
-  
 </body>
 </html>
