@@ -3,6 +3,7 @@ body {
 }
 
 .navops{
+    font-size: 40px;
     float: left;
     display: block;
     color: black;
@@ -15,8 +16,9 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 98%;
+  width: 95%;
   padding-right: 1%;
+  padding-left: 2%;
 }
 .icons{
     float: right;
@@ -26,5 +28,25 @@ body {
     padding-left: 100px;
     padding-top: 200px;
     font-size: 100px;
-    height: 670px;
+    height: 630px;
+}
+p { margin:0 }
+
+body {
+	background: linear-gradient(-45deg, #ee7752, purple, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
