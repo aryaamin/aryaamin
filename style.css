@@ -7,7 +7,7 @@ body {
     float: left;
     display: block;
     color: black;
-    padding: 14px 20px;
+    padding: 2% 1%;
     text-decoration: none;
 }
 
@@ -25,10 +25,9 @@ body {
 }
 
 .info{
-    padding-left: 100px;
-    padding-top: 200px;
+    padding-left: 5%;
+    padding-top: 11%;
     font-size: 100px;
-    height: 630px;
 }
 p { margin:0 }
 

@@ -45,7 +45,7 @@ ul{
 li{
     display: block;
     float: left;
-    padding: 5px;
+    padding: 1%;
 }
 a{
     text-decoration: none;
@@ -70,7 +70,7 @@ a{
     display: block;
     font-family: 'Ubuntu';font-size: 40px;
     position: absolute;
-    padding-top: 14px;
+    padding-top: 2%;
     /* padding-left: 80%; */
     padding-left: 2%;
 }
