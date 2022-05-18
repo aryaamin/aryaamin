@@ -6,7 +6,7 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url('./minibt.jpg');
+    
     background-size: cover;
 }
 body > * {
@@ -59,4 +59,18 @@ a{
 .arrowright{
     float: right;
     padding-right: 5%;
+}
+
+#git{
+    float: right; 
+    padding-right: 5%;
+}
+
+.home{
+    display: block;
+    font-family: 'Ubuntu';font-size: 40px;
+    position: absolute;
+    padding-top: 14px;
+    /* padding-left: 80%; */
+    padding-left: 2%;
 }
