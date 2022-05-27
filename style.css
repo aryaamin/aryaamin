@@ -6,7 +6,7 @@ body {
     font-size: 40px;
     float: left;
     display: block;
-    color: black;
+    color: white;
     padding: 2% 1%;
     text-decoration: none;
 }
@@ -25,6 +25,7 @@ body {
 }
 
 .info{
+    color: white;
     padding-left: 5%;
     padding-top: 11%;
     font-size: 100px;
@@ -32,8 +33,41 @@ body {
 p { margin:0 }
 
 body {
-	background: linear-gradient(-45deg, #ee7752, purple, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, red, black, darkgreen, darkblue);
 	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100%;
+}
+.mode0 {
+    background: linear-gradient(-45deg, red, black, darkgreen, darkblue);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100%;
+}
+.mode1 {
+    background: linear-gradient(-45deg, khaki, orange, brown, skyblue);
+    background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100%;
+}
+
+.mode2 {
+    background: linear-gradient(-45deg, #ee7752, purple, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100%;
+}
+
+.mode3 {
+    background: linear-gradient(-45deg, cyan, seagreen, indigo, gray);
+    background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100%;
+}
+
+.mode4 {
+    background: linear-gradient(-45deg, #988012, #591298, black, #981249);
+    background-size: 400% 400%;
 	animation: gradient 20s ease infinite;
 	height: 100%;
 }
@@ -48,4 +82,65 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.website-counter {
+    display: block;
+    float: right;
+    font-size: 30px;
+    color: white;
+    margin-top: 17%;
+    margin-right: 3%;
+  }
+
+  .waviy {
+
+    display: block;
+    float: right;
+    margin-top: 17%;
+    margin-right: 1%;
+
+
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 5s infinite;
+    animation-delay: calc(.1s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateX(360deg) 
+    }
+  }
+  
+#flower{
+    animation: rotation 10s infinite linear;
+}
+
+#flower:hover {
+    cursor: pointer;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#switch{
+    position: absolute;
+    margin-right: 50%;
+    margin-left: 25%;
+    margin-top: 0%;
+    background: none; 
+    border: none;
+   
+
 }
